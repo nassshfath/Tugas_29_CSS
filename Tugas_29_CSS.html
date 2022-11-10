@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas CSS - NIOMIC</title>
+    <link rel="stylesheet" type="text/css" href="semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="icon.css" />
+
+    <style>
+        body {
+            background-color: rgb(207, 207, 207);
+            width: 100%;
+            height: 100%;
+        }
+        .container {
+            width: 400px;
+            background-color: white;
+            padding: 20px;
+            display: block;
+            align-items: center;
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+
+
+        }
+        .header {
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            vertical-align: middle;
+        }
+    </style>
+
+  </head>
+  <body>
+    <script src="semantic.min.js"></script>
+    <div class="container">
+      <form action="" class="ui form">
+        <div class="header">
+          <img
+            src="https://previews.dropbox.com/p/thumb/ABuQu2ClUhH-rPpz1zfCE-NOSJY_N5m_FCKUcyWC-cxwgxl7QqGo4VQmsmKQiffT83ZSfbXdFQrn_O6PfAjwS13P2iqYbgrUu-k0wL3XsSJQzLMpG2PrH2Xnn5JhZiOQseeYRPepVCSHn82DYcnlTk-63_xeNpiHT_1LBxn5UFmbqMskqfWU558LZHx5QwGl3jeUfhuy5bmehfVQIPp-C0gKAyCdq6XOEAK6M15yo8ZadsIs_JjVVWBw_DqxSQNHDqk1ZoTwoOlptN1GjCw8mppOhVVHxZvrzcNq_g5HGIHDkiTsf80iMmcaytY_OaoKZVDwGcPQaHY60W9wkUCoPNvu_e0oSiLxQchSLOM9LYmmQO-wvmchhXcYNbBety1rPgk/p.jpeg"
+            alt=""
+            width="50px" style="margin-right: 20px;"
+          />
+          <h4 class="ui teal header">Daftar Akun Niomic</h4>
+        </div>
+
+        <div class="field ui fluid left icon input">
+          <input type="text" placeholder="Nama Depan" />
+          <i class="user icon"></i>
+        </div>
+        <div class="field ui fluid left icon input">
+          <input type="text" placeholder="Nama Belakang" />
+          <i class="user icon"></i>
+        </div>
+        <div class="field ui fluid left icon input">
+          <input type="number" placeholder="No Telp/HP" />
+          <i class="user icon"></i>
+        </div>
+        <div class="field ui fluid left icon input">
+          <input type="email" placeholder="Alamat Email" />
+          <i class="user icon"></i>
+        </div>
+        <div class="field ui fluid left icon input">
+          <input type="password" placeholder="Password" />
+          <i class="lock icon"></i>
+        </div>
+        <div>
+          <button type="button" class="ui fluid teal button">Login</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
